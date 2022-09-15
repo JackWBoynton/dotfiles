@@ -1,9 +1,0 @@
-kind: SwitchConfig
-version: v1alpha1
-kubeconfigName: "*.kubeconfig"
-kubeconfigStores:
-- kind: filesystem
-  kubeconfigName: "*.kubeconfig"
-  paths:
-  - ~/.kube/
-  - ~/.kube/config
